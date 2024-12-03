@@ -30,3 +30,12 @@ nest g resource books --project books
 (module, controller, service)
 nest g resource books --project bookstore-api-gateway 
 - chọn Rest Api, Yes
+
+--tạo thư viện chung để quản lý--
+nest g library contracts
+
+rm -rf libs/contracts/src/*
+
+mkdir libs/contracts/src/books
+
+cp apps/books/src/books/dto* libs/contracts/src/books
