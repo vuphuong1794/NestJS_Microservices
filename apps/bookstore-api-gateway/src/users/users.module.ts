@@ -6,7 +6,7 @@ import { UsersService } from './users.service';
 
 @Module({
   imports: [
-    //ket noi gateway voi users service
+    //ket noi gateway voi users service (ket noi dung giao thuc va port)
     ClientsModule.register([
       {
         name: 'USERS_CLIENT',
