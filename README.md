@@ -7,7 +7,7 @@
 <a href="https://ibb.co/Km87Pt6"><img src="https://i.ibb.co/52Jv0QT/nh-ch-p-m-n-h-nh-2024-12-01-153613.png" alt="nh-ch-p-m-n-h-nh-2024-12-01-153613" border="0"></a>
 
 
-## command 
+## Command 🖥️
 
 nest new .
 
@@ -23,16 +23,16 @@ nest g module users --project bookstore-api-gateway
 nest g service users --project bookstore-api-gateway
 nest g controller users --project bookstore-api-gateway
 
---tạo service books--
+## Tạo service books 📖
 nest g resource books --project books 
--chọn microservices, yes
+-> chọn microservices, yes
 
---tạo service trong bookstore-api-gateway--
+## Tạo service trong bookstore-api-gateway 🛜
 (module, controller, service)
 nest g resource books --project bookstore-api-gateway 
-- chọn Rest Api, Yes
+-> chọn Rest Api, Yes
 
---tạo thư viện chung để quản lý--
+## Tạo thư viện chung để quản lý 📮
 nest g library contracts
 
 rm -rf libs/contracts/src/*
